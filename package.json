@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Antyfive/teo-body-parser/issues"
   },
-  "homepage": "https://github.com/Antyfive/teo-body-parser#readme"
+  "homepage": "https://github.com/Antyfive/teo-body-parser#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2"
+  }
 }
