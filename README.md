@@ -21,13 +21,31 @@ module.exports = {
             name: "body-parser",
             module: "teo-body-parser",
             config: {
-             // enables all parsers
-             json: true,
-             urlencoded: true,
-             raw: true,
-             text: true
+               // enables all parsers with the default options
+               json: true,
+               urlencoded: true,
+               raw: true,
+               text: true
             }
         }
     ],
 };
+```
+Passing `json: true` no options will be passed, and it will be just enabled with the default options as `bodyParser.json()`.
+Alternatively, if you want to pass the additional configuration options for some specific parser, just replace `true` with your configuration object. E.g.
+
+```javascript
+extensions: [
+    {
+        name: "body-parser",
+        module: "teo-body-parser",
+        config: {
+           json: true,
+           // will apply bodyParser.urlencoded({extended: true})
+           urlencoded: { extended: true },
+           raw: true,
+           text: true
+        }
+    }
+],
 ```
