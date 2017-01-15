@@ -15,15 +15,14 @@ function extractConfig(confItem) {
 module.exports = {
   extension(app, config = {}) {
   	const parsers = [];
-    
   	if (config.json) {
   		parsers.push(bodyParser.json(extractConfig(config.json)));
   	}
     if (config.raw) {
-     parsers.push(bodyParser.raw(extractConfig(config.raw))); 
+      parsers.push(bodyParser.raw(extractConfig(config.raw))); 
     }
     if (config.text) {
-     parsers.push(bodyParser.text(extractConfig(config.text)));  
+      parsers.push(bodyParser.text(extractConfig(config.text)));  
     }
   	if (config.urlencoded) {
   		parsers.push(bodyParser.urlencoded(extractConfig(config.urlencoded)));
