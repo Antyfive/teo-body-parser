@@ -32,6 +32,7 @@ module.exports = {
 };
 ```
 When passing `json: true` - no options will be passed, and the parser will be enabled with the default options as `bodyParser.json()`.
+
 Alternatively, if you want to pass the additional configuration options for some specific parser, just replace `true` with your configuration object. E.g.
 
 ```javascript
