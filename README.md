@@ -1,5 +1,5 @@
 # teo-body-parser
-Teo.JS body parser based on Express.js [body-parser](https://github.com/expressjs/body-parser) module.
+Teo.JS body parser middleware based on Express.js [body-parser](https://github.com/expressjs/body-parser) module.
 
 This module provides support for all of the wrapped API:
   * [JSON body parser](https://github.com/expressjs/body-parser#bodyparserjsonoptions)
