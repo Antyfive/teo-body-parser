@@ -1,0 +1,24 @@
+{
+  "name": "teo-body-parser",
+  "version": "1.0.0",
+  "description": "Teo.JS body parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antyfive/teo-body-parser.git"
+  },
+  "keywords": [
+    "body",
+    "parser",
+    "teo.js"
+  ],
+  "author": "Andrew Teologov <teologov.and@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Antyfive/teo-body-parser/issues"
+  },
+  "homepage": "https://github.com/Antyfive/teo-body-parser#readme"
+}
